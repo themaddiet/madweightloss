@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #f24418;
+    color: #18bc9c;
 }
 
 h1,
@@ -82,7 +82,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #e73651;
+    background: #18bc9c;
 }
 
 header .container {
@@ -182,15 +182,6 @@ section h2 {
 section.success {
     color: #fff;
     background: #18bc9c;
-}
-
-section.success a,
-section.success a:hover,
-section.success a:focus,
-section.success a:active,
-section.success a.active {
-    outline: 0;
-    color: #2c3e50;
 }
 
 @media(max-width:767px) {
@@ -451,9 +442,4 @@ footer .footer-below {
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
-}
-
-.portfolio-modal .modal-backdrop {
-    display: none;
-    opacity: 0;
 }
